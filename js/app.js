@@ -1,5 +1,5 @@
-$(function () {
-  // SLIDER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+'use strict';
+document.addEventListener('DOMContentLoaded', () => {
   let slider = $('#slider');
   slider.slick({
     infinite: true,
@@ -45,8 +45,8 @@ $(function () {
     timer = minutes + ':' + seconds;
 
     document.querySelector('#timer').innerHTML = `
-    ${minutes}:${seconds}
-    `;
+  ${minutes}:${seconds}
+  `;
   }, 1000);
 
   // SCROLL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
